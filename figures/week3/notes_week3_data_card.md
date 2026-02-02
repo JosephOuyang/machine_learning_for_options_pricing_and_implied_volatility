@@ -10,17 +10,18 @@ sigma:        [0.01, 1.0]
 
 Actual min/max (generated):
 m (S/K):      [0.400000, 1.599999]
-tau (T-t):    [0.200000, 1.100000]
+tau (T-t):    [0.200000, 1.099999]
 r:            [0.020000, 0.100000]
-sigma:        [0.010001, 1.000000]
-V/K (label):  [0.000000, 0.900102]
+sigma:        [0.010001, 0.999999]
+V/K (label):  [0.000000, 0.893004]
 
 Sanity checks enforced:
 - S/K > 0, tau > 0, sigma > 0
 - 0 <= V/K <= S/K
 
-Histogram screenshot:
-- runs/week3_lhs_dataset_generation/20260119-190307/figures/week3_LHS_input_histograms.png
+Visualizations:
+- runs/week3_lhs_dataset_generation/20260202-024209/figures/week3_LHS_input_histograms.png
+- runs/week3_lhs_dataset_generation/20260202-024209/figures/week3_LHS_input_scatterplots.png
 
 Saved dataset:
-- runs/week3_lhs_dataset_generation/20260119-190307/bs_lhs_dataset_n1e6.pt
+- runs/week3_lhs_dataset_generation/20260202-024209/bs_lhs_dataset_n1e6.pt
